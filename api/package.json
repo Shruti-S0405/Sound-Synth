@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader @esbuild-kit/esm-loader index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.665.0",
+    "@aws-sdk/lib-storage": "^3.665.0",
+    "@deepgram/sdk": "^3.8.0",
+    "@hono/node-server": "^1.13.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.3",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "@esbuild-kit/esm-loader": "^2.6.5",
+    "@types/node": "^22.7.4",
+    "typescript": "^5.5.3"
+  }
+}
